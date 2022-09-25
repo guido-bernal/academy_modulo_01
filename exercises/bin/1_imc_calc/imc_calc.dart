@@ -3,7 +3,7 @@ import 'dart:math';
 String imcFormula(int peso, double altura) {
   final double imcFormula = peso / pow(altura, 2);
 
-  return (imcFormula).toStringAsFixed(2);
+  return imcFormula.toStringAsFixed(2);
 }
 
 void main() {
