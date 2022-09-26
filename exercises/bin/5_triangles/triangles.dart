@@ -13,15 +13,15 @@ String verifyTriangle(int a, int b, int c) {
 }
 
 void main() {
-  // Esperado: Abaixo do Peso
+  // Esperado: Triângulo Equilátero
   print("Caso 1: " + verifyTriangle(2, 2, 2));
 
-  // Esperado: Acima do Peso
+  // Esperado: Não é possível formar um triângulo
   print("Caso 2: " + verifyTriangle(2, 2, 5));
 
-  // Esperado: Peso Normal
+  // Esperado: Triângulo Isósceles
   print("Caso 3: " + verifyTriangle(2, 1, 2));
 
-  // Esperado: Obesidade
+  // Esperado: Triângulo Escaleno
   print("Caso 4: " + verifyTriangle(5, 12, 13));
 }
